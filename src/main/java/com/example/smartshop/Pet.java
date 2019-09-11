@@ -1,6 +1,7 @@
 package com.example.smartshop;
+import java.io.*;
 
-public class Pet {
+public class Pet implements Serializable {
     private int id;
     private String name;
     private String type;
